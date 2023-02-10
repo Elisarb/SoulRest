@@ -1,0 +1,141 @@
+.header{
+    height:100px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position:fixed;
+    width:100%;
+    z-index: 99999;
+    animation: translate 2s linear;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.17);
+    
+
+    @keyframes translate {
+        0%{transform: translate(0, -150%);}
+        100%{transform:translate(0, 0);}
+    }
+
+    .logo-nav{ 
+        width:200px;
+        height:fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-nav-title{
+        font-family: lovelo-line-light;
+        font-size: 48px;
+        color:#d0417e;
+        margin:0px;
+        text-shadow: -0.2rem -0.2rem 2rem #d0417e,
+    }
+
+    .logo-nav-subtitle{
+        font-family: quicksand;
+        color:white;
+        height:min-content;
+        margin:0px;
+        font-size:12px;
+        text-shadow: -0.2rem -0.2rem 1rem white;
+        letter-spacing: 5px;
+    }
+
+    .burger-menu{
+        height:30px;
+        // cursor: pointer;
+    }
+
+    .burger-menu:hover{
+        background-color: #404040;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .nav-header{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin-right:50px;
+    }
+
+    .header-links{
+        font-family: quicksand;
+        font-size: 100%;
+        text-decoration: none;
+        color: white;
+        height:60px;
+        text-align: center;
+        vertical-align: middle;
+        height:fit-content;
+        transition: 1s;
+    }
+
+    .header-links:hover{
+        // color:rgb(61, 216, 252);
+        color:white;
+        background-color: #404040;
+        border-radius: 100px 100px 100px 100px;
+        overflow: visible;
+    }
+
+    .logo-bar{
+        height:auto;
+        width:10%;
+        margin:2% 10% 2% 8%;
+    }
+
+    .expandArrow{
+        margin:5px;
+    }
+
+    .language-select{
+        color:white;
+    }
+
+    .drop-button{
+        background-color: transparent;
+        color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        z-index:999;
+      }
+      
+      /*Botón hover y focus*/
+      
+      /*Posición del contenedor*/
+      .dropdown{
+        position: relative;
+        display: inline-block;
+       }
+      
+      /*submenu*/
+      .dropdown-content{
+        background-color: black;
+        display: none;
+        position: absolute;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a{
+        color: #207878;
+        padding: 12px 16px;
+        display: block;
+      }
+      
+      .dropdown-content a:hover{
+        background-color: #f1f1f1
+      }
+
+    
+}
+
+.show {
+    display: block!important;
+  }

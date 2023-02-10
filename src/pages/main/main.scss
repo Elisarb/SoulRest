@@ -1,0 +1,140 @@
+.main{
+    height:95vh;
+    width:100%;
+    position:relative;
+    left: 0%;
+    top:0%;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.304);
+
+
+    .main-image{
+        width:100vw;
+        height:100vh;
+        position:absolute;
+        left:0%;
+        top:0%;
+        z-index:-1;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .main-introduction{
+        width:100%;
+        position:absolute;
+        left: 0%;
+        top:25%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:baseline;
+
+    }
+
+    .logo{
+        width:200px;
+    }
+
+    .title{
+        width:300px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-title{
+        font-family: lovelo-line-light;
+        font-size: 80px;
+        color:#d0417e;
+        margin:0px;
+        animation: flicker 1.5s infinite alternate;  
+    }
+
+    .main-subtitle{
+        font-family: quicksand;
+        color:white;
+        height:min-content;
+        margin:0px;
+        font-size:20px;
+        animation: flicker-white 1.5s infinite alternate;  
+        text-shadow: -0.2rem -0.2rem 1rem white;
+        letter-spacing: 10px;
+    }
+    .holi{
+        width:100%;
+    }
+
+    .buttons-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width:100%;
+    }
+
+    .buttons{
+        
+        text-align: center;
+        border-radius: 25px;
+        border:0px solid black;
+        color:black;
+        background-color: white;
+        width:350px;
+        height:48px;
+        font-family: quicksand;
+        font-size: 22px;
+        margin:25px;
+        cursor:pointer;
+
+        a{
+            text-decoration: none;
+            color:black
+        }
+           
+      }
+    
+      .buttons:hover{
+        background-color: rgb(61, 216, 252);
+    }
+
+    .borde-expandido{
+        position:relative;
+        margin:20px;
+      }
+      .borde-expandido:before{
+        content:'';
+        position:absolute;
+        border: 2px solid white;
+        border-radius: 50px;
+        top:0px;
+        bottom:0px;
+        left:0px;
+        right:0px;
+        -webkit-transition-duration:0.5s;
+      }
+      .borde-expandido:hover:before{
+        top:-10px;
+        bottom:-10px;
+        left:-10px;
+        right:-10px;
+      }
+
+
+}
+
+
+@keyframes flicker {
+    
+    0%, 19%, 21%, 23%, 30%, 54%, 56%, 100% {
+      
+        text-shadow:
+            -0.2rem -0.2rem 1rem #d0417fc0,
+            0 0 2rem #d0417fcc,
+            
+              
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+        box-shadow: none;
+    }    
+}

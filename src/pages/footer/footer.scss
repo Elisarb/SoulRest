@@ -1,0 +1,62 @@
+.footer{
+    // height:80vh;
+    background-color: black;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0px;
+    overflow-x: hidden;
+    // align-items: center;
+
+    .texto{
+        display: flex;
+        justify-content: center;
+
+        h2{
+            width:100%;
+            padding: 0px 0px;
+            color:white;
+            font-size: 40px;
+            text-align: center;
+            // font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    }
+
+    .logo{
+        width:100px;
+    }
+
+    .logo-nav{ 
+        width:50%;
+        height:fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-nav-title{
+        font-family: lovelo-line-light;
+        font-size: 48px;
+        color:#d0417e;
+        margin:0px;
+        width:100%;
+        text-shadow: -0.2rem -0.2rem 2rem #d0417e,
+    }
+
+    .logo-nav-subtitle{
+        font-family: quicksand;
+        color:white;
+        height:min-content;
+        margin:0px;
+        font-size:12px;
+        text-shadow: -0.2rem -0.2rem 1rem white;
+        letter-spacing: 5px;
+    }
+
+    .horarios{
+        color: white;
+        font-size: 18px;
+        width:max-content;
+    }
+}
