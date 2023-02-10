@@ -33,6 +33,7 @@ function ReactSimplyCarouselExample() {
             },
         }}
         forwardBtnProps={{
+          className:'carousel-buttons',
           //here you can also pass className, or any other button element attributes
           style: {
             position: 'absolute',
@@ -52,6 +53,7 @@ function ReactSimplyCarouselExample() {
           children: <span>{`▶`}</span>,
         }}
         backwardBtnProps={{
+          className:'carousel-buttons',
           //here you can also pass className, or any other button element attributes
           style: {
             position: 'absolute',

@@ -1,5 +1,6 @@
 import Main from '../src/pages/main/main'
 import './App.css';
+import './media-query.scss';
 import About from './pages/about/about';
 import Gallery from './pages/gallery/gallery';
 import Location from './pages/location/location';

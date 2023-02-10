@@ -1,0 +1,102 @@
+@media screen and (max-width:768px){
+.main .logo{
+    height:100px;
+}
+
+.about .texto h2 {
+    font-size: 40px !important;
+}
+
+.main-image{
+    width:auto!important;
+}
+
+.about p {
+font-size: 20px!important;
+line-height: 2;
+}
+
+.location .texto h2 {
+    font-size: 40px!important;
+}
+
+.gallery .texto h2 {
+    font-size: 50px!important;
+}
+
+
+
+
+}
+
+@media screen and (max-width:426px){
+
+    .main{
+        overflow-x: hidden;
+    }
+    .header .header-links{
+        display: none!important;
+    }
+
+    .about .texto h2{
+        padding:10px 0px!important;
+    }
+
+    .about p{
+        line-height: 1.5;
+    }
+
+    .location .mapa{
+        width: 70%!important;
+    }
+
+    .text-on-top{
+        font-size: 30px!important;
+    }
+
+    .carousel-buttons{
+        font-size: 40px!important;
+    }
+    .footer .horarios{
+        font-size: 14px!important;
+    }
+
+    .card{
+        margin:5px!important;
+    }
+
+    .card .image-card{
+        width:70vw!important;
+    }
+
+    .header{
+        height:70px;
+    }
+
+    .header .logo-nav-title{
+        font-size: 36px!important;
+    }
+
+}
+
+@media screen and (max-width:320px){
+    .gallery .texto h2{
+        font-size: 35px!important;
+    }
+
+    .carousel-buttons{
+        width:50px!important;
+
+    }
+
+    .text-on-top{
+        font-size: 20px!important;
+    }
+
+    .about p{
+        font-size: 16px!important;
+    }
+
+
+}
+
