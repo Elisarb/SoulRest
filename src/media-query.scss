@@ -27,6 +27,7 @@ line-height: 2;
 
 
 
+
 }
 
 @media screen and (max-width:426px){
@@ -95,6 +96,10 @@ line-height: 2;
 
     .about p{
         font-size: 16px!important;
+    }
+
+    .location .mapa{
+        width:50%;
     }
 
 

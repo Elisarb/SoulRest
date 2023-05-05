@@ -9,7 +9,8 @@
     // align-items: center;
 
     .texto{
-        width:70%;
+        width:100%;
+        
 
         h2{
             width:100%;
@@ -18,11 +19,23 @@
             font-size: 60px;
             text-align: left;
             font-family: quicksand;
+            text-align: center;
+        }
+
+        h3{
+            width:100%;
+            padding: 0px 0px;
+            color:black;
+            font-size: 14px;
+            text-align: left;
+            font-family: quicksand;
+            text-align: center;
+
         }
     }
 
     .mapa{
-        width:50%;
+        width:25%;
         height:auto;
     }
 }

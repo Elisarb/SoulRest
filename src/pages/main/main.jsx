@@ -7,6 +7,10 @@ import Logo from '../../assets/images/logo.svg';
 
 const Main = () => {
 
+    function whatsapp(){
+        
+    }
+
     return(
         <div>
         <div className='main'>
@@ -22,16 +26,16 @@ const Main = () => {
                 
                 <div className='buttons-container'>
                     <div className="holi">
-                        <button className='buttons borde-expandido' handleClick="">
-                        <a href="#">Contáctanos</a>
+                        <button className='buttons borde-expandido' onClick={() => {window.open('https://wa.link/4opo2x','_blank');console.log("clicado")}}>
+                        <a href="https://www.buzzfeed.com/quizzes?page=2" target="_blank" rel="noreferrer">Contáctanos</a>
                         </button>
                     </div>
                     
-                    <div className="holi">
+                    {/* <div className="holi">
                         <button className='buttons borde-expandido'>
-                        <a href="#">Reserva Ya</a>
+                        <a href="#">Carta</a>
                         </button>
-                    </div>
+                    </div> */}
                     
                 </div>
                 

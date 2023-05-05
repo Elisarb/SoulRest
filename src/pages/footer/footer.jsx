@@ -11,8 +11,7 @@ const Footer = () => {
                 <img className='logo' src={Logo} alt='logo'/>
                 <h1 className='logo-nav-title'>SOUL</h1>
                 <h5 className='logo-nav-subtitle'>-RESTAURANT-</h5>
-                <p className='horarios'>Lunes-Jueves 18:00-03:00 <br/> Viernes-Sábado 18:00-03:30 <br/> Domingo 18:00-03:00 <br/> Calle Echegaray 18,
-28014, Madrid</p>
+                <p className='horarios'>Lunes-Domingo 18:00-04:30<br/>Costanilla de los Ángeles 16, 28014, Madrid</p>
             </div>
                 
             </div>

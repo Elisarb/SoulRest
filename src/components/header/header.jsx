@@ -42,9 +42,10 @@ const Header = () => {
                             <img src={burger} className= "burger-menu" alt="burger-menu"/>
                         </button>
                         <div id="myDropdown" class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <h4>Síguenos en:</h4>
+                            <a href="https://www.instagram.com/soulmadridrest/?igshid=YmMyMTA2M2Y%3D" target="_blank">Instagram</a>
+                            <a href="https://www.tiktok.com/@soulmadrid?_t=8c4c6kSBlDG&_r=1" target="_blank">Tik Tok</a>
+                            {/* <a href="#">Link 3</a> */}
                         </div>
                     </div>
                 </div>

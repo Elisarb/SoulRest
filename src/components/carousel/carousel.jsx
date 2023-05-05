@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import ReactSimplyCarousel from 'react-simply-carousel';
 import Fiesta1 from '../../assets/images/fiesta1.jpg';
+import Fiesta2 from '../../assets/images/fiesta2.jpg';
+import Fiesta3 from '../../assets/images/fiesta3.jpg';
+import Fiesta4 from '../../assets/images/fiesta4.jpg';
+import Fiesta5 from '../../assets/images/fiesta5.jpg';
 
 import '../carousel/carousel.scss';
 
@@ -92,20 +96,25 @@ function ReactSimplyCarouselExample() {
 
         <div>
             <div className="card">
-            <img className="image-card" src={Fiesta1} alt="imagen fiesta1"/>
+            <img className="image-card" src={Fiesta2} alt="imagen fiesta1"/>
              </div>
         </div>
 
         
         <div>
             <div className="card">
-            <img className="image-card" src={Fiesta1} alt="imagen fiesta1"/>
+            <img className="image-card" src={Fiesta3} alt="imagen fiesta1"/>
              </div>
         </div>
         
         <div>
             <div className="card">
-            <img className="image-card" src={Fiesta1} alt="imagen fiesta1"/>
+            <img className="image-card" src={Fiesta4} alt="imagen fiesta1"/>
+             </div>
+        </div>
+        <div>
+            <div className="card">
+            <img className="image-card" src={Fiesta5} alt="imagen fiesta1"/>
              </div>
         </div>
 
